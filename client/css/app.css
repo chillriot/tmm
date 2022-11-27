@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.start_display, .mail_display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+} 
+
+.button {
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+
+    background: none;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.button:hover {
+    border-color: white;
+    background: black;
+    color: white;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input {
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+.mail_display {
+    width: 1170px;
+    justify-content: start;
+}
+
+.mail_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    border-bottom: 2px solid #000;
+}
+
+.mail_list { 
+    margin-top: 30px;
+    width: 100%;
+}
+
+.mail_item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+
+    
+}
+
+.mail_item {
+    margin-top: 30px;
+    border-left: 2px solid black;
+    
+    padding-left: 10px;
+}
+
+.mail_item-content {
+    padding: 18px 0;
+    border-bottom: 2px solid #000;
+}
